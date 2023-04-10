@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --config ./jest.config.js --forceExit --coverage --logHeapUsage", 
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --config ./jest.config.js --forceExit --coverage --logHeapUsage",
     "start": "node server.js"
   },
   "keywords": [
@@ -30,6 +30,10 @@
     "jest-cli": "^29.3.1",
     "superagent": "^8.0.6",
     "supertest": "^6.3.3",
-    "ts-jest": "^29.0.3"
+    "swagger": "^0.7.5",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^4.6.2",
+    "ts-jest": "^29.0.3",
+    "yamljs": "^0.3.0"
   }
 }
